@@ -1,0 +1,61 @@
+{
+  "name": "solululab-pm",
+  "display_name": "Solululab PM",
+  "description": "客戶專案管理工作流 Plugin：涵蓋會議紀錄、需求整理、提案報價、規格設計、執行追蹤、結案覆盤的完整 PM skill 套件。適用於接案型軟體開發公司的客戶專案全生命週期管理。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Solululab",
+    "url": "https://github.com/solululab"
+  },
+  "repository": "https://github.com/solululab/solululab-pm",
+  "license": "MIT",
+  "categories": ["project-management", "productivity", "workflow"],
+  "keywords": [
+    "project-management",
+    "client-project",
+    "proposal",
+    "meeting-notes",
+    "quotation",
+    "spec",
+    "closure",
+    "pm",
+    "software-agency"
+  ],
+  "skills": [
+    {
+      "name": "pm-project-init",
+      "description": "從模板建立標準專案資料夾",
+      "triggers": ["新專案", "開新案子"]
+    },
+    {
+      "name": "pm-meeting",
+      "description": "會議紀錄整理、逐字稿處理、會後追蹤",
+      "triggers": ["整理會議紀錄", "處理逐字稿"]
+    },
+    {
+      "name": "pm-requirement",
+      "description": "需求文件撰寫、問題追蹤、客戶資料管理",
+      "triggers": ["整理需求", "更新 questions"]
+    },
+    {
+      "name": "pm-proposal",
+      "description": "提案書、報價單、合約管理",
+      "triggers": ["寫提案", "報價"]
+    },
+    {
+      "name": "pm-spec",
+      "description": "功能規格書、系統架構、時程規劃",
+      "triggers": ["寫規格書", "排時程"]
+    },
+    {
+      "name": "pm-execution",
+      "description": "變更追蹤、問題管理、交付物管理",
+      "triggers": ["客戶要加功能", "change request"]
+    },
+    {
+      "name": "pm-closure",
+      "description": "驗收紀錄、覆盤報告、結案流程",
+      "triggers": ["結案", "驗收", "覆盤"]
+    }
+  ]
+}
