@@ -2,7 +2,10 @@
   "name": "solululab-pm",
   "version": "1.0.0",
   "description": "客戶專案管理工作流 Plugin：涵蓋會議紀錄、需求整理、提案報價、規格設計、執行追蹤、結案覆盤的完整 PM skill 套件。適用於接案型軟體開發公司的客戶專案全生命週期管理。",
-  "author": "Solululab",
+  "author": {
+    "name": "Solululab",
+    "email": "b98901052@ntu.edu.tw"
+  },
   "repository": "https://github.com/solululab/solululab-pm",
   "license": "MIT",
   "keywords": ["project-management", "client-project", "proposal", "meeting-notes", "quotation", "spec", "closure"]
