@@ -8,5 +8,6 @@
   },
   "repository": "https://github.com/solululab/solululab-pm",
   "license": "MIT",
-  "keywords": ["project-management", "client-project", "proposal", "meeting-notes", "quotation", "spec", "closure"]
+  "keywords": ["project-management", "client-project", "proposal", "meeting-notes", "quotation", "spec", "closure"],
+  "skills": "./skills/"
 }
